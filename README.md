@@ -1,4 +1,6 @@
-# scrambler
+[![Go CI](https://github.com/mediafellows/scrambler/actions/workflows/go.yml/badge.svg)](https://github.com/mediafellows/scrambler/actions/workflows/go.yml)
+
+# Scrambler
 
 Scrambler aims to provide a simple way to let you secure sensible
 information such as credentials you don't want to put into source control.
