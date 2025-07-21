@@ -1,6 +1,6 @@
 module github.com/dbldots/scrambler
 
-go 1.13
+go 1.24
 
 require (
 	github.com/mitchellh/go-homedir v1.1.0

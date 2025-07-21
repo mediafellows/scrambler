@@ -10,17 +10,17 @@ information such as credentials you don't want to put into source control.
 obviously for this approach you'll need to have GO installed and configured
 
 ```
-go install github.com/dbldots/scrambler@latest
+go install github.com/mediafellows/scrambler@latest
 ```
 
 ### #2 using the binaries
 
-Download the package matching your env from here: https://github.com/dbldots/scrambler/releases
+Download the package matching your env from here: https://github.com/mediafellows/scrambler/releases
 
 Well, you know how this works, but an example of commands would be
 
 ```
-wget https://github.com/dbldots/scrambler/releases/download/v1.0.2/scrambler_1.0.2_linux_amd64.tar.gz
+wget https://github.com/mediafellows/scrambler/releases/download/v1.0.2/scrambler_1.0.2_linux_amd64.tar.gz
 tar xvfz scrambler_1.0.2_linux_amd64.tar.gz
 sudo cp scrambler /usr/local/bin/
 sudo chmod 755 /usr/local/bin/scrambler
@@ -38,7 +38,7 @@ steps:
   - name: Install scrambler
     uses: jaxxstorm/action-install-gh-release@v1.10.0
     with:
-      repo: dbldots/scrambler
+      repo: mediafellows/scrambler
       tag: v1.0.2
       cache: enable
 ```
