@@ -1,4 +1,4 @@
-module github.com/dbldots/scrambler
+module github.com/mediafellows/scrambler
 
 go 1.24
 
